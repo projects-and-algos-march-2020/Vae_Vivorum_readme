@@ -1,9 +1,8 @@
 
-#### Current As Of 3/5/20
+#### Current As Of 3/8/20
 
 [My GitHub](https://github.com/JonathanBallard/)
 [My Repo](https://github.com/JonathanBallard/Coding_Dojo_Projects_Vae_Vivorum.git)
-
 
 # **Vae Vivorum**
 
@@ -79,14 +78,14 @@ Based on the pre-bootcamp fighter jet game*
 - Bcrypt everything important in session  
 - Add Footer to each page with my info **DONE**  
 - Create dashboard.html **DONE**  
-- Player Ship image  
-- Enemy ship images  
+- Player Ship image **DONE**  
+- Enemy ship images **DONE**  
 - Background Image  
-- Find out why spaceship.png isn't showing up on game.html  
+- Find out why spaceship.png isn't showing up on game.html **DONE**  
 - Create game.html **DONE**  
 - Create game.js  **DONE**
 - Create Weapon Types  
-- Power-ups to swap weapons  
+- Power-ups to swap weapons (???)  
 - Differentiate between enemy and friendly fires **DONE**  
 - Stop Enemies when they reach bottom of game area **DONE**  
 - Change deleteEnemies() function to delete whenever enemy is out of bounds, not JUST bottom of screen **DONE**  
@@ -94,11 +93,11 @@ Based on the pre-bootcamp fighter jet game*
 - proper collision detection **DONE**  
 - TEST COLLISION DETECTION, Also known as, FIX COLLISION DETECTION **DONE**  
 - Responsive Game Screen  
-- Enemies move left & right & up as well  
+- Enemies move left & right & up as well **DONE, EXCEPT THEY DON'T MOVE UP**  
 - When enemy hits you, you take damage, Ramming **DONE**  
 - Make enemies fire at you  
 - When hit by enemy fire lose health/armor **DONE**  
-- Finish spawnEnemyWave()  
+- Finish spawnEnemyWave(), decide what type of enemy to spawn **DONE**  
 - Armor and Health numbers on screen **DONE**  
 - Player can move across the whole map **DONE**  
 - Differentiate between Game and Viewport  
@@ -112,8 +111,8 @@ Based on the pre-bootcamp fighter jet game*
 - Finish victory() function  
 - Look at better hitboxes  
 - Finish adding Score and +kills to player object **DONE**  
-- Fix shieldRechargeDelay (maybe AJAX?)  
-- Multiple kinds of enemies  
+- Fix shieldRechargeDelay (maybe AJAX?) **DONE**  
+- Multiple kinds of enemies **DONE**  
 - Should be able to fire and move at the same time **DONE**  
 - Player and Enemy objects pass width and height to style.css!  
 - Figure out classes vs database for storing information **DONE**  
@@ -122,7 +121,38 @@ Based on the pre-bootcamp fighter jet game*
 - Pass database info using JSON but first need to enter everything into DB  
 - Redo Movement **DONE**  
 - Fix undefined object.left in collision detection (ITS A MISSILE, SPAWNED BY MOUSE) **DONE**  
-- Move statistics text off of game area  
+- Move statistics text off of game area **CANCELLED**
+- Make statistics unselectable **DONE**    
+- Make spawnEnemyWave() take parameter of enemy to spawn & spawn NumFormation number of enemies in the correct formation **DONE**  
+- Create SpawnEnemy(enemyType) which is passed to spawnEnemyWave **DONE**
+- Make spawnEnemyWave() have enemies move the correct way **DONE**  
+- Delay between firing missiles **DONE THROUGH RELOAD FUNCTION**  
+- Reload after x number of missiles fired **DONE**  
+- Make an iteration counter **DONE**  
+- Change enemy facing when moving **DONE**  
+- Change HP and Shields to Progress bars **DONE**  
+- Finish missileReload() function **DONE**  
+- Add Missile Magazine Progress Bar **DONE**  
+- Add image to missile **DONE**  
+- Add gradients to make progress bars look nice **DONE**  
+- Remove ability to shoot with the mouse (??) **DONE**  
+- Reduce the height of the screen  
+- Ensure it works on all screen sizes  
+- Enemies can move diagonally **DONE**  
+- Illusion of map motion  
+- Enemies spawn in correct pattern (eg line/cluster/circle)  
+- Break apart munitions images  
+- Finish Resizing ships **DONE**  
+- Add numFormation=2 Spawner **DONE**  
+- Player ship not showing up on dashboard **DONE**  
+- Resize player ship for dashboard/index  
+- Fix enemy spawn formations  
+- Chaingun fires on Spacebar, Missile fires burst of 6 on '1' (keycode 49) or should swap to missile on 'lalt' (keycode 18)  (???) **DONE**  
+- Enemies gain health based on level & difficulty  
+- Ability Icons that turn red when unavailable  
+- Fix enemy rotations  
+- Change stats for each enemy type  
+- Make progress bars line up nicely  
 
 ### Sandbox
 
@@ -150,15 +180,38 @@ Based on the pre-bootcamp fighter jet game*
 - Eventually Set up Bootstrap "cards" system for each map  
 - Change to fire and aim with mouse  
 - Add Pause Functionality  
-- Create Health and Armor Bars  
-- Have to reload or pause if firing too often  
-- When enemies hit, they take damage instead  
+- Create Health and Armor Bars for each enemy on screen  
+- Have to reload or pause if firing too often **DONE**  
+- When enemies hit, they take damage instead **DONE**  
+- Explosions when enemies hit/destroyed  
+- Add movement patterns to enemies  
+- Add damaged enemy images  
+- Missiles do area damage  
+
+
 
 ---
 
 # Artist Credits
 
 "[asset name]" by [author name] licensed [license(s)]: [asset url]  
+"Spaceship Tut" by Skorpio licensed CC-BY 3.0 and GPL 3.0: https://opengameart.org/content/spaceship-tutorial-0  
+"Bullet Effects" by Master484 licensed Public Domain: https://opengameart.org/content/bullet-collection-2-m484-games  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
